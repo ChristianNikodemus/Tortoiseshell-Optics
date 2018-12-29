@@ -1,8 +1,9 @@
-/* Univeral Styles */
+/* Universal Styles */
 
 html {
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
-  line-height: 1.4;
+  background-color: white;
 }
 
 body {
@@ -10,8 +11,8 @@ body {
 }
 
 .container {
-  width: 960px;
-  margin: 0 auto;
+  max-width: 960px;
+  margin: auto;
 }
 
 .flex {
@@ -23,7 +24,7 @@ body {
 header {
   height: 30rem;
   padding-top: 1rem;
-  background-image: url("../content/images/glasses-bg.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -53,7 +54,7 @@ nav ul {
   margin-right: 1rem;
 }
 
-nav li{
+nav li {
   display: inline;
   padding: 0 1rem;
 }
@@ -128,8 +129,8 @@ h1 {
     text-align: center;
   }
 
-.main-banner h1 {
-  font-size: 1rem;
+  .main-banner h1 {
+    font-size: 1rem;
   }
 }
 
@@ -193,7 +194,7 @@ h1 {
 
 .title {
   max-width: 10rem;
-  padding: 0.5rem 0 0.5rem 1.25rem;
+  padding: 0.5rem 1.25rem;
   background-color: cadetblue;
   font-weight: bold;
   color: white;
@@ -232,7 +233,7 @@ footer img {
   margin-right: 1rem;
 }
 
-@media only screen and (max-width:560px) {
+@media only screen and (max-width: 560px) {
   footer {
     justify-content: center;
   }
